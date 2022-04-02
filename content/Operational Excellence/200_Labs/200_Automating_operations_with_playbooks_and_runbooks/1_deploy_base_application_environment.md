@@ -6,7 +6,7 @@ weight: 1
 pre: "<b>1. </b>"
 ---
 
-In this section, you will prepare a sample application. The application is an API hosted inside a docker container, using [Amazon Elastic Compute Service (ECS).](https://aws.amazon.com/ecs/). The container is accessed via an [Application Load Balancer.](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html) 
+In this section, you will prepare a sample application. The application is an API hosted inside a docker container, using [Amazon Elastic Container Service (ECS).](https://aws.amazon.com/ecs/). The container is accessed via an [Application Load Balancer.](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html) 
 
 The API is a private microservice within your [Amazon Virtual Private Cloud (VPC)](https://aws.amazon.com/vpc/). Communication to the API can only be done privately through routes within the VPC subnet. In our lab example, the business owner has agreed to run the API over HTTP protocol to simplify the implementation. 
 
